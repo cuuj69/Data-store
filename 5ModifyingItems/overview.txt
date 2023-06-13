@@ -1,0 +1,1 @@
+This is going to demonstrate how to update and attribute of an item in our table, for example, when we need to udpate the format of a book because a new audio version has been release. We need to add this format to our product catalog. In some cases, we may need to remove a format if it is no longer availableP
