@@ -1,0 +1,3 @@
+We will be explore utilizing secondary indexes. previously we explored how to retrieve additional information on an item when given the elements for our composite key(Author and Title). However you may want to retrieve all books in a particular category such as technology or biography
+
+Unfortunately category is not part of the table's primary key. however we can create a secondary index to allow for this access pattern

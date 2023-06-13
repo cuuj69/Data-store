@@ -1,0 +1,5 @@
+Now we are going to query the index
+
+aws dynamod execute-statement \
+--statement \
+"SELECT * FROM Books.CategoryIndex WHERE Category='<>'
