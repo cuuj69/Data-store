@@ -1,0 +1,6 @@
+We now have loaded five books into the table. Each book includes Author and Title attributes for the primary key, and Category adn Formats attributes for additional information about the books. Each attribute has a type, which can be a simple type such as a string for the Category attribute, or a complex type such as a map for the Formats attribute.
+
+
+cli:
+
+aws dynamodb get-item 
