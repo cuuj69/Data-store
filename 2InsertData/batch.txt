@@ -1,0 +1,3 @@
+aws dynamodb batch-execute-statement \
+--statements \
+file://partiqlbatch.json

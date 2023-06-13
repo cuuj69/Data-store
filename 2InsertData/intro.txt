@@ -1,0 +1,5 @@
+We are going to perform a batch operation using partiql
+
+
+aws dynamodb execute-statement \
+--statement
