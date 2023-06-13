@@ -1,0 +1,29 @@
+Data Model
+
+When building an application, you should always take time to design the data models needed in your application logic. The data design should consider the data access needs of the application in question, both for reading and writing data
+
+Dynamodb is a nonrelational database, which means you don't need to specify the full schema upfront when creating a table. You only need to declare the primary key for your table, which uniquely identifies each record in your table. This reduces the upfront cost of designing your data model because you can easily modify your schema as your application's needs change
+
+As mentioned earlier, this application needs to retrieve individual books by its title and author. Because the combination of title and authors is a unique identifier of a book, you can use those attributes as the primary key of your table. Your application also needs to store information about the category of our book, such as history or biography, as well the available formats of the book- hardcover, paperback, or audiobook, that are mapped to the item numbers in an inventory system
+
+Illustration
+
+                DATASTORE
+                Primary key
+Book    =>    Title  Author    Category  Format
+
+Bantu         Bantu   T.AA      History     Paperback
+
+
+
+
+With these illustrations in mind
+
+
+Title( a string): The title of the book
+
+Author(a string): The author of the book
+
+Category(a string): The category of the book, such as history, biography, or sci-fi
+
+Formats(a map): The different formats that you have available for sale( Such as hardcover, paperback, and audiobook) and their item numbers in the inventory system

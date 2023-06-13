@@ -1,0 +1,9 @@
+Operating principles
+
+When a user accesses this application, it will showcase books that are in stock and basic information about those books, such as:
+
+author, title, category, etc
+
+The application should be able to  retrieve a specific book by a combination of it's title and author so a user can get additional information about the book. The application should also allow users to view all books in a given category, such as history or biography, to allow for discoverability of books in the catalog. These books can also come in different formats, such as hardcover, paperback, and audiobook. These formats can be updated over time
+
+

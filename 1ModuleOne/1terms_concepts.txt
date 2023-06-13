@@ -1,0 +1,11 @@
+In this module, we will walk through key terminology and concepts for this application and how to model a Dynamodb table to accomodate the needs of the application
+
+Terminology and concepts
+
+Table:This is simpley a collection of data. A table is specificall the structure in which Dynamodb stores data. In our case, we will have a books table to store our product catalog
+
+Item:A single data element in a Dynamodb table. Its comparable to a column in a relational database. However, unlike columns in a relational database, attributes do not need to be specified at table creation, other than the primary key.
+
+Primary Key: A primary key is a unique identifier for a single item in a dynamodb table. when you create a table, you must specify the primary key name and type. The primary key uniquely identifiers each item written to a table. A simple primary key consists of a single attribute, and a composite key consists of two attributes. For example, we will be using a combination of the Title and Author as the unique identifier for each book
+
+PartiQL: This is a SQL-compatible query language that enables you to codify your Dynamodb data operations using SQL syntax
